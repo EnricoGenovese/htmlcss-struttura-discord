@@ -30,6 +30,12 @@ ul {
     list-style: none; 
 }
 
+header ul li a {
+    padding: 6px 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
  /* main */
 
 .container {
