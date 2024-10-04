@@ -30,10 +30,17 @@ ul {
     list-style: none; 
 }
 
+ /* main */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px 0;
+}
+
+.container-small{
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .bg-light {
@@ -42,4 +49,26 @@ ul {
 
 .bg-blue {
     background-color: var(--bg-blue);
+}
+
+/* utility */
+
+.d-flex {
+    display: flex;
+}
+
+.r-reverse {
+    flex-direction: row-reverse;
+}
+
+.s-between {
+    justify-content: space-between;
+}
+
+.a-items {
+    align-items: center;
+}
+
+.f-start {
+    align-items: flex-start;
 }
