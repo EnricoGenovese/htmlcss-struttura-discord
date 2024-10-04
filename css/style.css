@@ -12,3 +12,30 @@
 
 /* custom properties*/
 
+:root {
+    --bg-blue: #255EE9;
+    --bg-light: #F6F6F6;
+    --dark: #23272A;
+    --contrast-color: #7289DA;
+}
+
+/*  generals */
+
+body {
+    font-family: Whitney, Neue Helvetica, Helvetica, Arial, sans-serif;
+    color: var(--dark);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.bg-light {
+    background-color: var(--bg-light);
+}
+
+.bg-blue {
+    background-color: var(--bg-blue);
+}
