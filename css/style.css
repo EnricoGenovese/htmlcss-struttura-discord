@@ -71,6 +71,9 @@ header ul li a {
     justify-content: space-between;
 }
 
+.s-around {
+    justify-content: space-around;
+}
 .a-items {
     align-items: center;
 }
