@@ -13,8 +13,8 @@
 /* custom properties*/
 
 :root {
-    --bg-blue: #255EE9;
-    --bg-light: #F6F6F6;
+    --blue: #255EE9;
+    --light: #F6F6F6;
     --dark: #23272A;
     --contrast-color: #7289DA;
 }
@@ -49,14 +49,27 @@ header ul li a {
     margin: 0 auto;
 }
 
-.bg-light {
-    background-color: var(--bg-light);
+.light {
+    background-color: var(--light);
 }
 
-.bg-blue {
-    background-color: var(--bg-blue);
+.blue {
+    background-color: var(--blue);
 }
 
+/* footer */
+
+footer {
+    background-color: var(--dark);
+}
+
+footer ul, footer h3, footer h2 {
+    color: var(--blue);
+}
+
+footer li {
+    color: #ffffff;
+}
 /* utility */
 
 .d-flex {
@@ -67,6 +80,9 @@ header ul li a {
     flex-direction: row-reverse;
 }
 
+.column {
+    flex-direction: column;
+}
 .s-between {
     justify-content: space-between;
 }
@@ -74,7 +90,12 @@ header ul li a {
 .s-around {
     justify-content: space-around;
 }
-.a-items {
+
+.c-content {
+    justify-content: center;
+}
+
+.c-items {
     align-items: center;
 }
 
