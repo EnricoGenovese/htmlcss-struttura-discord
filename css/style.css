@@ -61,14 +61,31 @@ header ul li a {
     background-color: var(--light);
 }
 
-.blue {
-    background-color: var(--blue);
+.constrast {
+    background-color: var(--contrast-color);
 }
 
 .white {
     background-color: #ffffff;
 }
+
+.blue {
+    background-color: var(--blue);
+}
+.text-contrast {
+    color: var(--contrast-color)
+}
  /* id */
+
+ #hero {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    min-height: 600px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center 
+ }
 
 /* footer */
 
@@ -76,9 +93,9 @@ footer {
     background-color: var(--dark);
 }
 
-footer ul, footer h3, footer h2 {
-    color: var(--blue);
-}
+/* footer ul, footer h3, footer h2 {
+    color: var(--contrast-color);
+} */
 
 footer li {
     color: #ffffff;
@@ -95,6 +112,10 @@ footer li {
 
 .column {
     flex-direction: column;
+}
+
+.c-reverse {
+    flex-direction: column-reverse;
 }
 .s-between {
     justify-content: space-between;
